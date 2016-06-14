@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>web4bio - US Heroin Addiction & Deaths 2002-20013</title>
+        <!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h3><strong>CDC - HEROIN ADDICTION & DEATHS 2002-2013</strong></h3><br />
+            <h4>SOCRATA API ENPOINT:  <a target="_blank" href="https://evergreen.data.socrata.com/resource/d26f-b5yf.json">https://evergreen.data.socrata.com/resource/d26f-b5yf.json</a></h4>
+            <h4>CDC - Centers for Desease Control and Prevention: <a target="_blank" href="https://data.cdc.gov/">https://data.cdc.gov/</a></h4><br />
+            
+            <div id="myDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+            <script src="cdcHeroinDeaths.js"></script>
+        </div>
+    </body>
+</html>
