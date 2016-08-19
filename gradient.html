@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Test</title>
+		<!-- Plotly.js -->
+		<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<h3><strong>GRADIENTS</strong></h3><br />
+			<button id="btn" type="button" onclick = "drawGradient_d();" >Draw Gradient d</button>
+			<button id="btn" type="button" onclick = "reset_all();" >Reset</button>
+			<button id="btn" type="button" onclick = "drawGradient_e()" >Draw Gradient e</button>
+			<div class="row">
+				<!-- The canvas tag -->
+				<canvas id="d" width="300" height="225"></canvas>
+				<canvas id="c" width="300" height="225"></canvas>
+
+				<div id="status"></div><br>
+			</div>
+			<script src="test3.js"></script>
+		</div>
+	</body>
+</html>
