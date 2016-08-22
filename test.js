@@ -27,6 +27,5 @@ function drawCoordinates(x,y){
     //arc function(start x, start y, radius, startAngle, endAngle, anticlockwise?:bool)
     ctx.arc(x, y, pointSize, 0, Math.PI * 2, true);  // Draw a point using the arc function of the canvas with a point structure
     ctx.fill();   // Close the path and fill
-    ctx.
-    ctx.arc()
+
 }
